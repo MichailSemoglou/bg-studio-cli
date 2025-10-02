@@ -130,9 +130,9 @@ python bgstudio.py photo.jpg -b "255,87,51" -v
 | `-m, --model`      | AI model to use       | `-m u2net_human_seg`         |
 | `-b, --background` | Background color/type | `-b white` or `-b "#FF0000"` |
 | `--blur`           | Edge blending radius  | `--blur 2.5`                 |
-| `--no-postprocess` | Skip post-processing  | `--no-postprocess`           |
-| `--no-show`        | Don't display result  | `--no-show`                  |
-| `-v, --verbose`    | Detailed output       | `-v`                         |
+| `--no-postprocess` | Skip post-processing  | `photo.jpg --no-postprocess` |
+| `--no-show`        | Don't display result  | `photo.jpg --no-show`        |
+| `-v, --verbose`    | Detailed output       | `photo.jpg -v`               |
 | `--list-models`    | Show available models | `--list-models`              |
 | `--version`        | Show version          | `--version`                  |
 
@@ -376,7 +376,6 @@ This project uses the following open-source libraries:
 - **Documentation**: Check this README and inline code comments
 - **Issues**: [GitHub Issues](https://github.com/MichailSemoglou/bg-studio-cli/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/MichailSemoglou/bg-studio-cli/discussions)
-- **Email**: your.email@example.com
 
 ---
 
