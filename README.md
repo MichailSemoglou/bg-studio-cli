@@ -376,7 +376,6 @@ This project uses the following open-source libraries:
 - **Documentation**: Check this README and inline code comments
 - **Issues**: [GitHub Issues](https://github.com/MichailSemoglou/bg-studio-cli/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/MichailSemoglou/bg-studio-cli/discussions)
-- **Email**: your.email@example.com
 
 ---
 
