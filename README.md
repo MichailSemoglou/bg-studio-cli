@@ -17,6 +17,25 @@ A powerful command-line tool for intelligent background removal from images usin
 - **Command Line Interface**: Easy-to-use CLI with extensive options
 - **High-Quality Output**: PNG/JPG support with transparency preservation
 
+## Example
+
+Here's a real-world example of background removal with a custom background color:
+
+**Original Image:**
+
+![Original](examples/alabaster-alabastron.jpg)
+
+**Processed with Red Background (#FF0000):**
+
+![With Red Background](examples/alabaster-alabastron-red.png)
+
+_Alabaster alabastron, 5th–4th century B.C., Cyprus._
+
+```bash
+# Command used to create this result:
+python bgstudio.py alabaster-alabastron.jpg -b "#FF0000" -o alabaster-alabastron-red.png
+```
+
 ## Quick Start
 
 ### Option 1: Clone and Install
