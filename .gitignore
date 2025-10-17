@@ -139,4 +139,5 @@ output*.jpg
 *.bmp
 *.tiff
 !sample_images/
-!example_*
+!examples/
+!example_*%
